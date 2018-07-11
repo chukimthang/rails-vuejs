@@ -1,24 +1,14 @@
-# README
+# Rails vs Vuejs
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Note: Install yarn
+- sudo apt-get update && sudo apt-get install yarn
+- sudo npm install -g yarn
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Using Webpack in Rails with the Webpacker gem
+- Install gem: gem 'webpacker', '~> 3.5'
+- rails webpacker:install
+- yarn add --dev webpack-dev-server
+- yarn add webpack-cli -D
+- yarn upgrade webpack-dev-server@^2.11.1
+- Run webpack server: bin/webpack-dev-server
+- Install vue: rails webpacker:install:vue
